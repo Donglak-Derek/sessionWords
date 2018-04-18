@@ -1,0 +1,61 @@
+#wrapper{
+	width: 800px;
+	border: 1px solid red;
+	
+}
+#left{
+	display: inline-block;
+	width: 350px;
+	border-right: 1px solid gray;
+	margin: 10px;
+	vertical-align: top;
+}
+#right{
+	/*vertical-align: top;*/
+	display: inline-block;
+	width: 350px;
+	/*border: 1px solid gray;*/
+	margin: 10px;
+
+}
+#nword{
+	border: 1px solid gray;
+	width: 280px;
+	height: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input:last-child{
+	display: block;
+	border: 1px solid gray;
+	margin: 10px;
+}
+
+input[name = clear]{
+	margin: 10px 10px 10px 250px;
+}
+
+#color{
+	display: block;
+	/*border: 1px solid gray;*/
+}
+
+#color input{
+	display: inline;
+	margin: 10px 0;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+.blue {
+	color: blue;
+}
+.big {
+	font-size: 150%;
+}
